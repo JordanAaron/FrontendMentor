@@ -5,12 +5,14 @@ $grey: hsl(231, 7%, 60%);
 $white: hsl(0, 0%, 100%);
 
 $font-size: 16px;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
 
 $mobile: 375px;
 $desktop: 1440px;
 
 @font-face {
-	font-family: 'regular';
+	font-family: 'regularRoboto';
 	src: url(./_projectFiles/assets/fonts/Roboto-Regular.ttf);
 }
 
@@ -19,7 +21,16 @@ $desktop: 1440px;
 	src: url(./_projectFiles/assets/fonts/Roboto-Bold.ttf);
 }
 
-.header {
-	background-color: $dark-slate-grey;
-	color: $white;
+.container {
+	font-family: 'regularRoboto';
+	font-size: $font-size;
+	color: $dark-slate-grey;
+
+	.header {
+		font-family: 'boldRoboto';
+	}
+
+	.paragraph {
+		font-weight: $font-weight-regular;
+	}
 }
