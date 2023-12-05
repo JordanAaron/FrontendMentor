@@ -1,0 +1,25 @@
+$tomato: hsl(4, 100%, 67%);
+$dark-slate-grey: hsl(234, 29%, 20%);
+$charcoal-grey: hsl(235, 18%, 26%);
+$grey: hsl(231, 7%, 60%);
+$white: hsl(0, 0%, 100%);
+
+$font-size: 16px;
+
+$mobile: 375px;
+$desktop: 1440px;
+
+@font-face {
+	font-family: 'regular';
+	src: url(./_projectFiles/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'boldRoboto';
+	src: url(./_projectFiles/assets/fonts/Roboto-Bold.ttf);
+}
+
+.header {
+	background-color: $dark-slate-grey;
+	color: $white;
+}
